@@ -1,0 +1,67 @@
+
+
+.App{
+    background-color: aqua;
+    height: 100vh;
+    width: 50%;
+    margin: auto;
+    display:block;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CSS for AddTodo  */
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 5px;
+    height: 60px;
+    width:45%;
+    margin: auto;
+}
+input{
+    height: 40px;
+    width: 50%;
+    border-radius: 5px;
+}
+button{
+  background:green;
+  border-radius: 5px;
+    height: 30px;
+    width: 10%;
+    margin: 10px;
+}
+h2{
+    text-align: center;
+}
+
+/* CSS for ListTodo */
+.edit{
+    margin: 5px;
+    padding: 5px;
+}
+.list-container{
+    display:block;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(230, 183, 183);
+    border-radius: 5px;
+    height: 55px;
+    width:55%;
+    margin-left:20%;
+}
+.grid{
+    list-style: none;
+    margin: 5px;
+    padding: 10px;
+  }
+   .todo-action{
+  float: right;
+  margin: 10px;
+   }
+   .close{
+    margin: 5px;
+   }
+   
